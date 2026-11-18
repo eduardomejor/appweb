@@ -1,0 +1,71 @@
+
+body{
+    background-color: #DFF5FD;   /* fondo azul claro pedido en el enunciado */
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    margin: 20px;                /* separa el contenido de los bordes de la ventana */
+}
+
+
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid black;      /* línea fina arriba */
+    border-bottom: 1px solid black;   /* línea fina abajo */
+    margin: 20px auto;                /* 20px arriba y abajo; auto centra el bloque horizontalmente */
+}
+
+
+h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.TimesRojo{
+    font-family: "Times New Roman", serif;   /* comillas porque el nombre tiene espacios; serif es la alternativa */
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.TimesVerde{
+    font-family: "Times New Roman", serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+}
+
+
+#Recuadrorojo{
+    background-color: #F5A9A9;
+    font-size: 14px;
+    color: #74030A;
+    font-family: Arial, Times, sans-serif;
+    border: solid 3px;
+    padding: 15px;                    /* espacio interior entre el borde y el texto */
+    margin: 20px auto 20px auto;      /* arriba, derecha, abajo, izquierda; auto a los lados centra el recuadro */
+    width: 50%;                       /* porcentaje para que se adapte a la resolución */
+    border-radius: 25px;              /* esquinas redondeadas */
+    box-shadow: 2px 2px 5px black;    /* sombra: desplazamiento X, Y y desenfoque */
+}
+
+
+#Recuadroazul{
+    background-color: #b5ebe6;
+    font-size: 14px;
+    color: #0f4f63;
+    font-family: Arial, Times, sans-serif;
+    border: dotted 3px;
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}
